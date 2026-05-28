@@ -1,0 +1,6 @@
+{
+  "name": "IT Student Portfolio",
+  "description": "A modern, highly polished, and visually interactive portfolio website for an Information Technology student featuring dynamic tech themes, skill charts, timeline components, and achievements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
