@@ -58,14 +58,14 @@ export default function Education() {
                 <div className="h-8 w-[1px] bg-slate-850" />
                 <div>
                   <span className="block font-mono text-[10px] text-slate-500 uppercase">IT Major score</span>
-                  <span className="block font-mono font-bold text-lg text-cyan-400 mt-0.5">3.92 / 4.00</span>
+                  <span className="block font-mono font-bold text-lg text-cyan-400 mt-0.5">3.0 / 2.7</span>
                 </div>
-                <div className="h-8 w-[1px] bg-slate-850 hidden sm:block" />
+                {/* <div className="h-8 w-[1px] bg-slate-850 hidden sm:block" />
                 <div className="hidden sm:block text-right">
                   <span className="px-2.5 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded text-[10px] font-mono font-semibold text-emerald-400 uppercase tracking-widest">
                     Honors List
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
 

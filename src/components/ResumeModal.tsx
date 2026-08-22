@@ -4,7 +4,7 @@ import {
   X, Download, Mail, Globe, Bookmark, Printer,
   MapPin, Phone, Github, Linkedin, Calendar, CheckSquare, Sparkles 
 } from 'lucide-react';
-import { STUDENT_PROFILE, EDUCATION_DATA, EXPERIENCE_DATA, ACHIEVEMENTS_DATA } from '../data';
+import { STUDENT_PROFILE, EDUCATION_DATA, EXPERIENCE_DATA } from '../data';
 
 interface ResumeModalProps {
   isOpen: boolean;
@@ -51,13 +51,10 @@ EXPERIENCES & COLLABORATIVE INITIATIVES:
 ${EXPERIENCE_DATA.map(exp => `
 Role: ${exp.role} | ${exp.organization} (${exp.period})
 Description: ${exp.description}
-Achievements:
+Key Contributions:
 ${exp.bullets.map(b => `  * ${b}`).join('\n')}
 `).join('\n')}
 
-ACADEMIC HONORS & MILESTONES:
------------------------------------------
-${ACHIEVEMENTS_DATA.map(ach => ` - ${ach.title} (${ach.issuer}, ${ach.date})`).join('\n')}
       `;
 
       // Trigger automatic plain-text download
@@ -225,7 +222,7 @@ ${ACHIEVEMENTS_DATA.map(ach => ` - ${ach.title} (${ach.issuer}, ${ach.date})`).j
                     </div>
                   </div>
 
-                  {/* Highlighted Project Achievements list */}
+                  {/* Highlighted project list */}
                   <div className="space-y-3">
                     <h3 className="font-sans font-extrabold text-[12px] text-slate-800 uppercase border-b-2 border-slate-400 pb-1 tracking-wide">
                       Selected Technical Codebases
@@ -294,17 +291,6 @@ ${ACHIEVEMENTS_DATA.map(ach => ` - ${ach.title} (${ach.issuer}, ${ach.date})`).j
                           {skill}
                         </span>
                       ))}
-                    </div>
-                  </div>
-
-                  {/* Honors brief */}
-                  <div className="space-y-2">
-                    <h3 className="font-sans font-extrabold text-[12px] text-slate-800 uppercase border-b-2 border-slate-400 pb-1 tracking-wide">
-                      Honors
-                    </h3>
-                    <div className="space-y-1.5 text-[11px] text-slate-600 font-sans">
-                      <p className="font-medium text-slate-900">🏆 IT Excellence Scholarship</p>
-                      <p className="font-medium text-slate-900">🏆 3rd Place - DevSlam Hackathon</p>
                     </div>
                   </div>
 

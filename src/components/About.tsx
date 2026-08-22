@@ -63,7 +63,7 @@ export default function About() {
             {/* Quick Fast Stats Cards */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
               <div className="bg-slate-900/40 p-4 rounded-xl border border-slate-900 hover:border-slate-800 transition-colors">
-                <span className="block font-mono text-2xl font-bold text-cyan-400">3.85</span>
+                <span className="block font-mono text-2xl font-bold text-cyan-400">2.7</span>
                 <span className="block font-sans text-xs text-slate-400 mt-1">Cumulative GPA</span>
               </div>
               <div className="bg-slate-900/40 p-4 rounded-xl border border-slate-900 hover:border-slate-800 transition-colors">
@@ -75,7 +75,7 @@ export default function About() {
                 <span className="block font-sans text-xs text-slate-400 mt-1">Labs Built</span>
               </div>
               <div className="bg-slate-900/40 p-4 rounded-xl border border-slate-900 hover:border-slate-800 transition-colors">
-                <span className="block font-mono text-2xl font-bold text-pink-400">2027</span>
+                <span className="block font-mono text-2xl font-bold text-pink-400">2028</span>
                 <span className="block font-sans text-xs text-slate-400 mt-1">Grad Target</span>
               </div>
             </div>

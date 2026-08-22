@@ -1,4 +1,4 @@
-import { Skill, Project, EducationItem, ExperienceItem, AchievementItem } from './types';
+import { Skill, Project, EducationItem, ExperienceItem } from './types';
 
 export const STUDENT_PROFILE = {
   name: "Jane Alyssa J. Pagbilao",
@@ -17,11 +17,11 @@ export const STUDENT_PROFILE = {
     { label: "Curiosity", desc: "Always exploring emerging cloud stacks, protocols, and AI APIs." }
   ],
   socials: {
-    email: "alilife020@gmail.com",
-    phone: "+63 (999) 341-2980",
-    github: "https://github.com/janealyssa-it",
+    email: "janealyssa023@gmail.com",
+    phone: "+63 9691147675",
+    github: "https://github.com/aly-ttle",
     linkedin: "https://linkedin.com/in/janealyssa-it",
-    instagram: "https://instagram.com/jane_alyssa",
+    instagram: "https://instagram.com/itsaly.jpg",
     resumeUrl: "#" // Simulated PDF action
   }
 };
@@ -96,44 +96,26 @@ export const PROJECTS_DATA: Project[] = [
 export const EDUCATION_DATA: EducationItem = {
   school: "Ilocos Sur Polytechnic State College-Tagudin Campus",
   degree: "Bachelor of Science in Information Technology",
-  gpa: "3.85 / 4.00 (Major GPA: 3.92)",
-  period: "Sept 2023 - Present (Expected Grad: June 2027)",
+  gpa: "3.0 / 2.7 (Major GPA: 2.7)",
+  period: "Sept 2024 - Present (Expected Grad: June 2028)",
   coursework: [
     "Database Management Systems (SQL & PHP/Express)",
     "Data Structures & Algorithms in Java",
     "Systems Integration & Architecture",
-    "Discrete Mathematical Structures",
     "Network Routing & Security",
     "Web Design & Client Technologies"
   ],
   certifications: [
-    { name: "Front-End Developer Professional Cert", issuer: "Meta (via Coursera)", date: "Aug 2025" },
-    { name: "Responsive Web Design Academy", issuer: "freeCodeCamp", date: "Jan 2024" }
+    { name: "Responsive Web Design Academy", issuer: "freeCodeCamp", date: "August 2024" }
   ],
   seminars: [
-    "IT Career Summit 2025 - Panelist on 'Student Tech Communities'",
-    "Cybersecurity Threats Seminar - ISPSC Tagudin, 2024",
-    "Database Scalability Workshop - Local Dev Group, 2025"
-  ]
+    "IT Career Summit 2025 - Panelist on 'Student Tech Communities'",  ]
 };
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
-    role: "Freelance Web Developer",
-    organization: "Local Small Businesses (Pro-Bono & Paid Contracts)",
-    period: "June 2024 - Present",
-    type: "freelance",
-    description: "Creating highly performant websites, landing pages, and local client inventory systems to replace paper records.",
-    bullets: [
-      "Designed and delivered a modern fully responsive website for a neighborhood bakery, raising mobile order inquiries by 35%",
-      "Established secure local spreadsheet sync operations using online platforms to coordinate menu stocks",
-      "Instructed local business owners on updating content and performing standard platform edits securely"
-    ],
-    tags: ["React", "Tailwind CSS", "SEO", "Customer Relations"]
-  },
-  {
-    role: "VP of Technical Projects",
-    organization: "ISPSC IT Student Association",
+    role: "Project Manager & Lead Developer",
+    organization: "None",
     period: "Sept 2024 – Present",
     type: "leadership",
     description: "Leading peer study cohorts, mentoring first-year programming students, and managing all internal club project builds.",
@@ -145,43 +127,17 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     tags: ["Mentorship", "Git Collaboration", "Workshop Instruction"]
   },
   {
-    role: "Finalist & Lead Hacker",
-    organization: "ISPSC annual IT Hackathon",
-    period: "Nov 2025",
-    type: "hackathon",
-    description: "Designed, coded, and pitched an environmental volunteer tracking app within an aggressive, fast-paced 36-hour timeframe.",
+    role: "IT Olympics 2026 Participant",
+    organization: "IT Olympics 2026",
+    period: "April 2026",
+    type: "competition",
+    description: "Competed in the IT Olympics 2026 quiz bee and completed an AI/ML hands-on activity as part of the event.",
     bullets: [
-      "Authored the responsive client mockup and connected it to local cloud mock services dynamically",
-      "Coordinated with two database colleagues to formulate smooth API data structures under high time pressure",
-      "Presented the working software prototype on stage to a panel of 5 local IT industry recruiters"
+      "Participated in the IT Olympics 2026 quiz bee, answering technical questions under timed conditions",
+      "Completed a practical AI/ML hands-on activity showcasing data analysis and model application skills",
+      "Collaborated with fellow participants to solve real-world tech challenges during the event"
     ],
-    tags: ["Rapid Prototyping", "Team Sprint", "Pitching under Pressure"]
+    tags: ["Competition", "Quiz Bee", "AI/ML"]
   }
 ];
 
-export const ACHIEVEMENTS_DATA: AchievementItem[] = [
-  {
-    id: "ach-1",
-    title: "3rd Place Winner - DevSlam Hackathon",
-    issuer: "Metropolitan Tech Councils",
-    date: "March 2025",
-    description: "Competed in high-intensity challenge creating a 'Smart Civic Traffic Alert' mapper alongside 45 other local collegiate IT students.",
-    icon: "Trophy"
-  },
-  {
-    id: "ach-2",
-    title: "Academic Achievement Scholarship",
-    issuer: "ISPSC Student Accelerator",
-    date: "Dec 2025",
-    description: "Received recognition and a subsidy for outstanding scholastic performance and tutoring contributions in IT study cohorts.",
-    icon: "Target"
-  },
-  {
-    id: "ach-3",
-    title: "1,000+ GitHub Commits Milestone",
-    issuer: "Personal Academic Achievement",
-    date: "Jan 2026",
-    description: "Pushed regular daily commits and documentation changes across diverse repository projects over consecutive academic semesters.",
-    icon: "Activity"
-  }
-];

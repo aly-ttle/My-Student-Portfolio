@@ -179,7 +179,7 @@ export default function Contact({ onOpenResumeModal }: ContactProps) {
                       required
                       value={formData.name}
                       onChange={handleInputChange}
-                      placeholder="e.g. Rachel Green"
+                      placeholder="Full Name as per your ID"
                       className="bg-slate-950 border border-slate-850 focus:border-cyan-500/60 rounded-xl px-4 py-3 text-xs text-slate-200 outline-none transition-colors focus:ring-1 focus:ring-cyan-500/20"
                     />
                   </div>
@@ -192,7 +192,7 @@ export default function Contact({ onOpenResumeModal }: ContactProps) {
                       required
                       value={formData.email}
                       onChange={handleInputChange}
-                      placeholder="rachel.g@company.com"
+                      placeholder="youremail@domain.com"
                       className="bg-slate-950 border border-slate-850 focus:border-cyan-500/60 rounded-xl px-4 py-3 text-xs text-slate-200 outline-none transition-colors focus:ring-1 focus:ring-cyan-500/20"
                     />
                   </div>

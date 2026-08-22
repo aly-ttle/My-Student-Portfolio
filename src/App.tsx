@@ -6,7 +6,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Education from './components/Education';
 import Experience from './components/Experience';
-import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import ResumeModal from './components/ResumeModal';
 
@@ -16,7 +15,7 @@ export default function App() {
 
   // Monitor element thresholds on scroll inside viewport
   useEffect(() => {
-    const sections = ['home', 'about', 'skills', 'projects', 'education', 'experience', 'achievements', 'contact'];
+    const sections = ['home', 'about', 'skills', 'projects', 'education', 'experience', 'contact'];
     
     const handleScrollAndObserve = () => {
       const scrollPosition = window.scrollY + 200; // Offset checking
@@ -86,10 +85,7 @@ export default function App() {
         {/* Section 6: Initiatives and Experiences */}
         <Experience />
 
-        {/* Section 7: Honors and Milestones */}
-        <Achievements />
-
-        {/* Section 8: Form Actions & Connects */}
+        {/* Section 7: Form Actions & Connects */}
         <Contact onOpenResumeModal={() => setResumeModalOpen(true)} />
       </main>
 

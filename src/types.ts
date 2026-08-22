@@ -35,17 +35,9 @@ export interface ExperienceItem {
   role: string;
   organization: string;
   period: string;
-  type: 'freelance' | 'hackathon' | 'leadership' | 'project';
+  type: 'competition' | 'freelance' | 'hackathon' | 'leadership' | 'project';
   description: string;
   bullets: string[];
   tags: string[];
 }
 
-export interface AchievementItem {
-  id: string;
-  title: string;
-  issuer: string;
-  date: string;
-  description: string;
-  icon: string; // Lucide icon name
-}
